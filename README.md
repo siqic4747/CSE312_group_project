@@ -52,4 +52,4 @@ git branch -d <branch_name>
     lg3-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
 ~~~
 Add 3 aliases (and 4 alias-aliases for quick usage) in my ~/.gitconfig file. It helps to follow commit logs
-
+Framework - Django - python.
