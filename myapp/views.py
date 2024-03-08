@@ -2,17 +2,18 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello, world. This is the index page.")
-
-def home(request):
+    # Your index view logic here
     return render(request, 'index.html')
 
-def css(request):
-    return HttpResponse("CSS content", content_type="text/css")
+def register(request):
+    # Your register view logic here
+    return render(request, 'register.html')
 
-def js(request):
-    return HttpResponse("JavaScript content", content_type="application/javascript")
+def register_form(request):
+    #get the data from the POST request and redirect the user to the login page
+    return
 
-def image(request):
-    return HttpResponse("This would be an image response.", content_type="image/png")
+def forgot_password_request(request):
+    # Your forgot password request view logic here
+    return render(request, 'forgot-password.html')
 

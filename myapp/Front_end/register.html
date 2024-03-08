@@ -2,22 +2,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <title>Registration</title>
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}">
 </head>
 <body>
-    <h1>Login</h1>
-    <form id="loginForm" action="/login/" method="post" enctype="application/x-www-form-urlencoded">
+    <h1>Registration</h1>
+    <form id="registrationForm" action="/register-form/" method="post" enctype="application/x-www-form-urlencoded">
         {% csrf_token %}
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
         <label for="password">Password:</label><br>
         <input type="password" id="password" name="password"><br>
-        <input type="submit" value="Login">
+        <label for="retype_password">Re-type Password:</label><br>
+        <input type="password" id="retype_password" name="retype_password"><br>
+        <input type="submit" value="Register">
     </form>
-    <button id="forgotPasswordBtn">Forgot Password</button>
-    <button id="createAccountBtn">Create New Account</button>
 
     <script src="{% static 'js/script.js' %}"></script>
 </body>
