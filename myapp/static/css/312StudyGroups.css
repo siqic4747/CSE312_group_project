@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #593A71;
+  }
+  
+  .header {
+    width: 100%;
+    height: 133px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #7D5CB3;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    left: 1150px;
+    top: 16px;
+    position: absolute;
+    background: #593A71;
+    border-radius: 9999px;
+  }
+  
+  .title {
+    width: 1280px;
+    height: 133px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .sidebar {
+    width: 290px;
+    height: 627px;
+    left: 0;
+    top: 151px;
+    position: absolute;
+    background: #7D5CB3;
+  }
+  
+  .sidebar-title {
+    width: 280px;
+    left: 0;
+    top: 176px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+
+  .sidebar-title-one {
+    width: 280px;
+    left: 0;
+    top: 220px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .content {
+    width: 278px;
+    height: 50px;
+    left: 974px;
+    top: 166px;
+    position: absolute;
+    background: #7D5CB3;
+  }
+
+  .content-one {
+    width: 278px;
+    height: 50px;
+    left: 974px;
+    top: 700px;
+    position: absolute;
+    background: #7D5CB3;
+  }
+  
+  .content-title {
+ 
+    left: 1040px;
+    top: 176px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+
+  .content-title-one {
+ 
+    left: 1030px;
+    top: 710px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  

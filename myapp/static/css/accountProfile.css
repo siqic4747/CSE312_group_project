@@ -1,0 +1,163 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #593A71;
+  } */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #593A71;
+    overflow: hidden;
+  }
+  
+  .header {
+    width: 100%;
+    height: 133px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #7D5CB3;
+  }
+  
+  .title {
+    width: 1280px;
+    height: 133px;
+    left: -10px;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .profile-circle {
+    width: 260px;
+    height: 260px;
+    left: 65px;
+    top: 271px;
+    position: absolute;
+    background: #2B1F34;
+    border-radius: 9999px;
+  }
+  
+  .avatar {
+    width: 97px;
+    height: 97px;
+    left: 148px;
+    top: 301px;
+    position: absolute;
+    background: black;
+    border-radius: 9999px;
+  }
+  
+  .avatar-background {
+    width: 153.43px;
+    height: 152px;
+    left: 269.52px;
+    top: 560.80px;
+    position: absolute;
+    transform: rotate(-178.48deg);
+    transform-origin: 0 0;
+    background: black;
+    border-radius: 9999px;
+  }
+  
+  .sign-out-button {
+    width: 241px;
+    height: 54px;
+    left: 1003px;
+    top: 710px;
+    position: absolute;
+    background: #7D5CB3;
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .username-section,
+  .email-section,
+  .major-section {
+    width: 620px;
+    height: 67px;
+    position: absolute;
+    background: #7D5CB3;
+  }
+  
+  .username-section {
+    left: 624px;
+    top: 210px;
+  }
+  
+  .email-section {
+    left: 624px;
+    top: 365px;
+  }
+  
+  .major-section {
+    left: 624px;
+    top: 519px;
+  }
+  
+  .username-label,
+  .email-label,
+  .major-label {
+    width: 273px;
+    height: 67px;
+    left: 351px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .username-label {
+    top: 210px;
+  }
+  
+  .email-label {
+    top: 365px;
+  }
+  
+  .major-label {
+    top: 519px;
+  }
+  
+  .change-password {
+    width: 705px;
+    left: -123px;
+    top: 710px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  

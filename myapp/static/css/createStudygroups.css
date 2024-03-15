@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .MacbookAir3 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #593A71;
+  }
+  
+  .Rectangle1,
+  .Rectangle12,
+  .Rectangle13,
+  .Rectangle14,
+  .Rectangle15,
+  .Rectangle18,
+  .Rectangle21 {
+    position: absolute;
+    background: #7D5CB3;
+  }
+  
+  .Rectangle1 {
+    width: 100%;
+    height: 133px;
+    left: 0;
+    top: 0;
+  }
+  
+  .Ellipse1 {
+    width: 100px;
+    height: 100px;
+    left: 1150px;
+    top: 16px;
+    position: absolute;
+    background: #593A71;
+    border-radius: 9999px;
+  }
+  
+  .Create {
+    width: 1280px;
+    height: 133px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .Rectangle12 {
+    width: 620px;
+    height: 67px;
+    left: 560px;
+    top: 201px;
+  }
+  
+  .Rectangle13 {
+    width: 620px;
+    height: 67px;
+    left: 560px;
+    top: 320px;
+  }
+  
+  .Rectangle14 {
+    width: 620px;
+    height: 67px;
+    left: 560px;
+    top: 439px;
+  }
+  
+  .Rectangle15 {
+    width: 620px;
+    height: 67px;
+    left: 560px;
+    top: 548px;
+  }
+  
+  .GroupName,
+  .Major,
+  .MeetingTime,
+  .Members {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .GroupName {
+    width: 273px;
+    height: 67px;
+    left: 317px;
+    top: 201px;
+  }
+  
+  .Major {
+    width: 243px;
+    height: 67px;
+    left: 317px;
+    top: 323px;
+  }
+  
+  .MeetingTime {
+    width: 226px;
+    height: 67px;
+    left: 334px;
+    top: 569px;
+  }
+  
+  .Members {
+    width: 243px;
+    height: 67px;
+    left: 317px;
+    top: 446px;
+  }
+  
+  .Rectangle18 {
+    width: 241px;
+    height: 54px;
+    left: 1002px;
+    top: 680px;
+  }
+  
+  .Create:last-of-type {
+    width: 241px;
+    height: 64px;
+    left: 1002px;
+    top: 736px;
+  }
+  
+  .Rectangle21 {
+    width: 290px;
+    height: 627px;
+    left: 0;
+    top: 151px;
+  }
+  
+  .MyStudyGroups,
+  .Homepage {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .MyStudyGroups {
+    width: 280px;
+    left: 0;
+    top: 186px;
+  }
+  
+  .Homepage {
+    width: 280px;
+    left: 0;
+    top: 230px;
+  }
+  
+  .submit {
+    width: 280px;
+    /* left: 1000; */
+    right: 170px;
+    top: 690px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  

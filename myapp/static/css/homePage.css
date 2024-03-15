@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.Homepage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #593A71;
+  overflow: hidden;
+}
+
+.Rectangle1 {
+  width: 100%;
+  height: 133px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #7D5CB3;
+}
+
+.HomepageTitle {
+  width: 1280px;
+  height: 133px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.Rectangle5 {
+  width: 285px;
+  height: 38px;
+  left: 414px;
+  top: 168px;
+  position: absolute;
+  background: #7D5CB3;
+}
+
+.Rectangle10 {
+  width: 285px;
+  height: 38px;
+  left: 897px;
+  top: 162px;
+  position: absolute;
+  background: #7D5CB3;
+}
+
+.Rectangle20 {
+  width: 285px;
+  height: 38px;
+  left: 1804.50px;
+  top: 1192.50px;
+  position: absolute;
+}
+
+.Filter {
+  width: 285px;
+  height: 38px;
+  left: 414px;
+  top: 168px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.Create {
+  width: 285px;
+  height: 38px;
+  left: 901px;
+  top: 163px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.Rectangle6 {
+  width: 403px;
+  height: 232px;
+  left: 355px;
+  top: 233px;
+  position: absolute;
+  background: #7D5CB3;
+}
+
+.MyStudyGroups {
+  width: 280px;
+  left: 0px;
+  top: 177px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.Rectangle8 {
+  width: 403px;
+  height: 232px;
+  left: 355px;
+  top: 518px;
+  position: absolute;
+  background: #7D5CB3;
+}
+
+.Rectangle7 {
+  width: 403px;
+  height: 232px;
+  left: 828px;
+  top: 233px;
+  position: absolute;
+  background: #7D5CB3;
+}
+
+.Rectangle9 {
+  width: 403px;
+  height: 232px;
+  left: 828px;
+  top: 518px;
+  position: absolute;
+  background: #7D5CB3;
+}
+
+.Arrow1 {
+  width: 100px;
+  height: 0px;
+  left: 1150px;
+  top: 786px;
+  position: absolute;
+  border: 5px white solid;
+}
+
+.Cse312 {
+  width: 133px;
+  left: 347px;
+  top: 249px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.Cse341 {
+  width: 133px;
+  left: 830px;
+  top: 530px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.Veiw {
+  width: 120px;
+  left: 638px;
+  top: 429px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.Ellipse1 {
+  width: 100px;
+  height: 100px;
+  left: 1150px;
+  top: 16px;
+  position: absolute;
+  background: #593A71;
+  border-radius: 9999px;
+}
+
+.Rectangle19 {
+  width: 290px;
+  height: 627px;
+  left: 0px;
+  top: 151px;
+  position: absolute;
+  background: #7D5CB3;
+}
+
+  
