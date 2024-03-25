@@ -8,16 +8,32 @@
 </head>
 <body>
     <h1>Registration</h1>
-    <form id="registrationForm" action="/register-form/" method="post" enctype="application/x-www-form-urlencoded">
+    <form id="registrationForm" action="{% url 'register_form' %}" method="post" enctype="application/x-www-form-urlencoded">
         {% csrf_token %}
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br>
-        <label for="retype_password">Re-type Password:</label><br>
-        <input type="password" id="retype_password" name="retype_password"><br>
+        <label for="id_username">Username:</label><br>
+        <input type="text" name="username" id="id_username" maxlength="150" required><br>
+        {% if form.username.errors %}
+            <p class="error">{{ form.username.errors.as_text }}</p>
+        {% endif %}
+    
+        <label for="id_email">Email:</label><br>
+        <input type="email" name="email" id="id_email" required><br>
+        {% if form.email.errors %}
+            <p class="error">{{ form.email.errors.as_text }}</p>
+        {% endif %}
+    
+        <label for="id_password1">Password:</label><br>
+        <input type="password" name="password1" id="id_password1" required><br>
+        {% if form.password1.errors %}
+            <p class="error">{{ form.password1.errors.as_text }}</p>
+        {% endif %}
+    
+        <label for="id_password2">Password confirmation:</label><br>
+        <input type="password" name="password2" id="id_password2" required><br>
+        {% if form.password2.errors %}
+            <p class="error">{{ form.password2.errors.as_text }}</p>
+        {% endif %}
+    
         <input type="submit" value="Register">
     </form>
 

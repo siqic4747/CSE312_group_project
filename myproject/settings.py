@@ -78,6 +78,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        # 'CLIENT': {
+        #    'host': 'db',
+        #    'port': 27017,
+        #    'username': 'mongoadmin',
+        #    'password': 'secret',
+        #    'authSource': 'admin',
+        #    'authMechanism': 'SCRAM-SHA-1'
+        # },
     }
 }
 
