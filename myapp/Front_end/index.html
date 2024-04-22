@@ -17,6 +17,10 @@
         
         <input type="submit" value="Login">
     </form>
+    {% if user.is_authenticated %}
+    <!-- Display logout button if the user is authenticated -->
+    <a href="{% url 'logout' %}">Logout</a>
+{% endif %}
     <button id="createAccountBtn">Create New Account</button>
 
     <script src="{% static 'js/script.js' %}"></script>

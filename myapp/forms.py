@@ -3,8 +3,8 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import AuthenticationForm
 
-
 User = get_user_model()
+
 
 class RegisterForm(UserCreationForm):
     email = forms.EmailField(required=True)
@@ -19,6 +19,8 @@ class RegisterForm(UserCreationForm):
         if commit:
             user.save()
         return user
+
+
 class CustomLoginForm(AuthenticationForm):
     username = forms.CharField(widget=forms.TextInput(attrs={'class': 'input-box', 'placeholder': 'Username'}))
     password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'input-box', 'placeholder': 'Password'}))
